@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MyComponentComponent } from './components/my-component/my-component.component';
+import { MyComponentPromiseComponent } from './components/my-component-promise/my-component-promise.component';
 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { MyData } from './my-data';
@@ -12,7 +13,8 @@ import { MyData } from './my-data';
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponentComponent
+    MyComponentComponent,
+    MyComponentPromiseComponent
   ],
   imports: [
     BrowserModule,
